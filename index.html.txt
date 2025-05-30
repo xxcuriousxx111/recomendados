@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recomendaciones de Sagas de Videojuegos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0 10px 60px;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #1b2838;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: #f39c12;
+      text-shadow: 2px 2px 6px #000;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background: rgba(0,0,0,0.3);
+      border-radius: 12px;
+      padding: 20px 30px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    }
+    h2 {
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 6px;
+      margin-top: 30px;
+      color: #f39c12;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 10px 0;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 12px 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: background 0.3s ease;
+    }
+    li:hover {
+      background: rgba(243, 156, 18, 0.4);
+      cursor: default;
+    }
+    .game-title {
+      font-weight: bold;
+      color: #ffeaa7;
+    }
+    .price {
+      color: #55efc4;
+      font-weight: bold;
+    }
+    .anuncio {
+      background: #222;
+      color: #aaa;
+      border: 1px solid #444;
+      text-align: center;
+      padding: 15px;
+      margin: 40px 0;
+      border-radius: 8px;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #1b2838;
+      color: #f0f0f0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -4px 6px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sagas de Videojuegos Recomendadas</h1>
+</header>
+
+<section>
+
+  <h2>Grand Theft Auto (GTA)</h2>
+  <ul>
+    <li><span class="game-title">GTA San Andreas</span> - El clásico que revolucionó los juegos de mundo abierto. Ideal para revivir la nostalgia. <span class="price">Precio aprox: 15€</span></li>
+    <li><span class="game-title">GTA IV</span> - Más realismo y una historia profunda, perfecto para jugadores que buscan narrativa. <span class="price">Precio aprox: 10€</span></li>
+    <li><span class="game-title">GTA V</span> - La joya actual, con un mundo enorme y GTA Online para jugar con amigos. <span class="price">Precio aprox: 30€</span></li>
+  </ul>
+
+  <h2>The Legend of Zelda</h2>
+  <ul>
+    <li><span class="game-title">Ocarina of Time</span> - Considerado uno de los mejores juegos de todos los tiempos. <span class="price">Precio aprox: 25€</span></li>
+    <li><span class="game-title">Breath of the Wild</span> - Mundo abierto innovador, exploración libre y puzzles desafiantes. <span class="price">Precio aprox: 50€</span></li>
+    <li><span class="game-title">Twilight Princess</span> - Combina aventura y acción con una historia oscura y emocionante. <span class="price">Precio aprox: 20€</span></li>
+  </ul>
+
+  <h2>Call of Duty</h2>
+  <ul>
+    <li><span class="game-title">Call of Duty: Modern Warfare</span> - Campaña intensa y multiplayer competitivo. <span class="price">Precio aprox: 40€</span></li>
+    <li><span class="game-title">Call of Duty: Black Ops III</span> - Zombies, multijugador y campaña con historia profunda. <span class="price">Precio aprox: 25€</span></li>
+    <li><span class="game-title">Call of Duty: Warzone</span> - Battle Royale gratuito con gran popularidad. <span class="price">Gratis</span></li>
+  </ul>
+
+  <h2>Assassin's Creed</h2>
+  <ul>
+    <li><span class="game-title">Assassin's Creed II</span> - La saga despegó con esta entrega y su historia en el Renacimiento. <span class="price">Precio aprox: 12€</span></li>
+    <li><span class="game-title">Assassin's Creed Odyssey</span> - Mundo abierto en la antigua Grecia con un enfoque RPG. <span class="price">Precio aprox: 30€</span></li>
+    <li><span class="game-title">Assassin's Creed Valhalla</span> - Aventuras vikingas con combates intensos. <span class="price">Precio aprox: 40€</span></li>
+  </ul>
+
+  <h2>God of War</h2>
+  <ul>
+    <li><span class="game-title">God of War (2018)</span> - Reboot exitoso con historia emotiva y combate espectacular. <span class="price">Precio aprox: 35€</span></li>
+    <li><span class="game-title">God of War III</span> - Acción intensa y épica en la mitología griega. <span class="price">Precio aprox: 20€</span></li>
+    <li><span class="game-title">God of War: Ragnarok</span> - La última aventura de Kratos en la mitología nórdica. <span class="price">Precio aprox: 50€</span></li>
+  </ul>
+
+  <!-- Sagas inventadas -->
+
+  <h2>Shadow Legends</h2>
+  <ul>
+    <li><span class="game-title">Shadow Legends: Origins</span> - Introducción a la saga con misterio y acción táctica. <span class="price">Precio aprox: 18€</span></li>
+    <li><span class="game-title">Shadow Legends II: Darkfall</span> - Expande el mundo con nuevas habilidades y jefes. <span class="price">Precio aprox: 25€</span></li>
+    <li><span class="game-title">Shadow Legends III: Eclipse</span> - Final épico con múltiples finales. <span class="price">Precio aprox: 30€</span></li>
+  </ul>
+
+  <h2>Galaxy Raiders</h2>
+  <ul>
+    <li><span class="game-title">Galaxy Raiders: Starborn</span> - Shooter espacial con campaña y multijugador. <span class="price">Precio aprox: 20€</span></li>
+    <li><span class="game-title">Galaxy Raiders II: Nebula Wars</span> - Más naves, más armas y modo cooperativo. <span class="price">Precio aprox: 28€</span></li>
+    <li><span class="game-title">Galaxy Raiders III: Final Frontier</span> - Batallas espaciales épicas y exploración. <span class="price">Precio aprox: 35€</span></li>
+  </ul>
+
+  <h2>Dragon Quest Chronicles</h2>
+  <ul>
+    <li><span class="game-title">Dragon Quest Chronicles I</span> - RPG clásico con gran historia y personajes. <span class="price">Precio aprox: 15€</span></li>
+    <li><span class="game-title">Dragon Quest Chronicles II</span> - Mejora gráfica y nuevas habilidades. <span class="price">Precio aprox: 22€</span></li>
+    <li><span class="game-title">Dragon Quest Chronicles III</span> - Gran final con jefes y mazmorras desafiantes. <span class="price">Precio aprox: 30€</span></li>
+  </ul>
+
+  <h2>Cyber Nexus</h2>
+  <ul>
+    <li><span class="game-title">Cyber Nexus: Awakening</span> - Shooter futurista con una historia intrigante. <span class="price">Precio aprox: 25€</span></li>
+    <li><span class="game-title">Cyber Nexus II: Neon Revolt</span> - Más armas y opciones de personalización. <span class="price">Precio aprox: 30€</span></li>
+    <li><span class="game-title">Cyber Nexus III: Quantum War</span> - Batallas a gran escala y modo online. <span class="price">Precio aprox: 40€</span></li>
+  </ul>
+
+  <h2>Legends of Eldoria</h2>
+  <ul>
+    <li><span class="game-title">Legends of Eldoria I</span> - RPG de fantasía con mundo abierto. <span class="price">Precio aprox: 18€</span></li>
+    <li><span class="game-title">Legends of Eldoria II: The Lost Kingdom</span> - Expansión con nuevas regiones y enemigos. <span class="price">Precio aprox: 27€</span></li>
+    <li><span class="game-title">Legends of Eldoria III: Return of the Mage</span> - Final con épicos combates mágicos. <span class="price">Precio aprox: 33€</span></li>
+  </ul>
+
+  <div class="anuncio">
+    <!-- Aquí puedes poner tu código de anuncio de Google AdSense -->
+    Espacio para anuncio
+  </div>
+
+</section>
+
+<footer>
+  &copy; 2025 Recomendaciones de Sagas de Videojuegos
+</footer>
+
+</body>
+</html> 
